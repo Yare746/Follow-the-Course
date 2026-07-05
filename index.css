@@ -1,0 +1,28 @@
+h1{
+    text-align:center;
+    color:blue;
+}
+body{
+    background-color:LightBlue;
+
+}
+button{
+    margin:auto;
+    display:block;
+    background-color:lightblue;
+    color:red;
+    font-size:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    border:5px solid darkBlue;
+    height:100px;
+    width:300px;
+}
+button:hover{
+    background-color:red;
+    color:lightblue;
+}
+button:active{
+    background-color:darkred;
+    color:white;
+}
