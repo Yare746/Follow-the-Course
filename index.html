@@ -11,9 +11,37 @@
 
 
     <body>
-        <h1>Follow the Course!</h1>
-        <button id="Rules" onclick="RulesPage()">Rules</button>
-        <button id="PlayGame" onclick="PlayGamePage()">Play Game</button>
+        
+
+        <div id="MainPage">
+            <h1>Follow the Course!</h1>
+            <button id="Rules" onclick="RulesPage()">Rules</button>
+            <button id="PlayGame" onclick="PlayGamePage()">Play Game</button>
+        </div>
+
+        <div class="Hidden" id="RulesPage">
+            <h1>Rules</h1>
+            <h3>1. Find the key and open the door to finish the course</h3>
+            <h3>2.Be careful of obstacles along the way!</h3>
+            <h3>3. Have fun and try NOT to die!</h3>
+            <button id="Escape" onclick="MainPage()">Escape</button>
+        </div>
+
+        <div class="Hidden" id="PlayGamePage">
+            <h1>Welcome!</h1> 
+            <button id="Escape" onclick="MainPage()">Escape</button>
+            <div class="Hidden" id="Course1">
+                <button class="Start" onclick="Course1()">Level 1</button>
+            </div>
+
+
+        </div>
+
+
+        <audio id="HomeScreenaudio" autoplay loop unmuted>
+            <source src="the_mountain-retro-143303.mp3" type="audio/mp3">
+
+        </audio>
     </body>
 
 
