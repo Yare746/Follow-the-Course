@@ -17,6 +17,10 @@
             <h1>Follow the Course!</h1>
             <button id="Rules" onclick="RulesPage()">Rules</button>
             <button id="PlayGame" onclick="PlayGamePage()">Play Game</button>
+            <audio id="HomeScreenaudio" autoplay loop unmuted>
+            <source src="the_mountain-retro-143303.mp3" type="audio/mp3">
+
+        </audio>
         </div>
 
         <div class="Hidden" id="RulesPage">
@@ -30,18 +34,19 @@
         <div class="Hidden" id="PlayGamePage">
             <h1>Welcome!</h1> 
             <button id="Escape" onclick="MainPage()">Escape</button>
-            <div class="Hidden" id="Course1">
-                <button class="Start" onclick="Course1()">Level 1</button>
-            </div>
+            <button id="CourseOneButton" class="Start" onclick="Course1()">Level 1</button>
+            <button id="CourseTwoButton" class="Start" onclick="Course2()">Level 2</button>
+            <button id="CourseThreeButton" class="Start" onclick="Course3()">Level 3</button>
+        </div>
 
-
+        <div class="Hidden" id="Course1Page">
+            <h1>Level 1</h1>
+            
+            
         </div>
 
 
-        <audio id="HomeScreenaudio" autoplay loop unmuted>
-            <source src="the_mountain-retro-143303.mp3" type="audio/mp3">
-
-        </audio>
+        
     </body>
 
 
